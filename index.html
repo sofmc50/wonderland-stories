@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Curious Turn in Wonderland</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <p class="label">THREE IMAGES. TWO STORIES.</p>
+        <h1>A Curious Turn in Wonderland</h1>
+        <p>One rabbit. One tea party. One queen. Where does the adventure lead?</p>
+    </header>
+
+    <main>
+        <div class="controls">
+            <p>Choose a sequence, then read the images from beginning to end.</p>
+            <button id="into-button" type="button">1. Into Wonderland</button>
+            <button id="out-button" type="button">2. A way out</button>
+        </div>
+
+        <section aria-live="polite" aria-atomic="true">
+            <h2 id="story-title">Into Wonderland</h2>
+            <p id="story-description">Alice follows the White Rabbit, gets caught up in a strange tea party, and finally faces the Queen. Curiosity leads her into danger.</p>
+
+            <div class="sequence">
+                <figure>
+                    <p class="step">01 / BEGINNING</p>
+                    <img id="first-image" src="images/rabbit.png" alt="John Tenniel illustration of the White Rabbit checking his pocket watch.">
+                    <figcaption id="first-caption">The White Rabbit</figcaption>
+                </figure>
+                <figure>
+                    <p class="step">02 / MIDDLE</p>
+                    <img src="images/tea-party.png" alt="John Tenniel illustration of Alice at the Mad Hatter’s tea party.">
+                    <figcaption>The tea party</figcaption>
+                </figure>
+                <figure>
+                    <p class="step">03 / END</p>
+                    <img id="last-image" src="images/queen.jpg" alt="John Tenniel illustration of the King and Queen of Hearts at court.">
+                    <figcaption id="last-caption">The Queen of Hearts</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <p class="reflection">Is the White Rabbit leading Alice toward trouble or helping her leave it behind? Reverse the order and decide. These are two imagined interpretations of the images.</p>
+        <noscript><p>Turn on JavaScript to switch between the two sequences.</p></noscript>
+    </main>
+
+    <footer>
+        <p>Illustrations by John Tenniel for <em>Alice’s Adventures in Wonderland</em> (1865). Public domain, via Wikimedia Commons.</p>
+        <p>Image sources ·
+            <a href="https://commons.wikimedia.org/wiki/File:Alice_par_John_Tenniel_02.png">The White Rabbit</a> ·
+            <a href="https://commons.wikimedia.org/wiki/File:Teaparty.png">The tea party</a> ·
+            <a href="https://commons.wikimedia.org/wiki/File:Queen_of_Hearts.jpg">The Queen of Hearts</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
