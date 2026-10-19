@@ -1,6 +1,8 @@
 # A Curious Turn in Wonderland
 
-A CCT 360 image-sequencing lab using HTML, CSS, and JavaScript only.
+Completed CCT 360 image-sequencing lab using HTML, CSS, and JavaScript only.
+
+[View the finished website](https://sofmc50.github.io/wonderland-stories/) · [GitHub repository](https://github.com/sofmc50/wonderland-stories)
 
 ## The two sequences
 
@@ -27,9 +29,7 @@ The middle image stays in place. No arrays, loops, conditionals, frameworks, or 
 
 Lecture reference: https://docs.google.com/presentation/d/1YNVvHMi1vigdVMd37y6GAtDpffc8-odEMOec0571jMA/edit
 
-## Files to upload to GitHub
-
-Upload the contents of this folder to the repository root:
+## Project files
 
 ```
 index.html
@@ -42,16 +42,7 @@ images/
     queen.jpg
 ```
 
-Use the commit message **Class Progress**.
-
-## Publish with GitHub Pages
-
-1. Open the repository on GitHub.
-2. Select **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Choose **main** and **/ (root)**, then select **Save**.
-5. Wait for GitHub to finish publishing. Copy the live URL shown on the Pages settings screen.
-6. Submit the repository URL and the live website URL as instructed by your class.
+All required images are included locally. The finished website is published with GitHub Pages from the main branch.
 
 ## Image credits
 
